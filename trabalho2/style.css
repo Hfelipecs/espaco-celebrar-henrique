@@ -1,0 +1,686 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: white;
+}
+
+header {
+    background-color: #A68E45;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 140px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.compra {
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#tituloimg {
+    font-size: 150px;
+    font-family: "Italianno", cursive;
+    text-shadow: 4px 4px 7px black;
+    font-weight: 100;
+}
+
+p {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "inter", sans-serif;
+}
+
+.lista-menu {
+    font-size: 30px;
+    font-family: "inter", sans-serif;
+    font-weight: 800;
+}
+
+.primeiro_menu {
+    display: flex;
+    height: 77px;
+    background-color: #7e6b34;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.capa {
+    width: 100%;
+    height: 934px;
+}
+
+.container3 {
+    background-color: #00000039;
+    width: 100%;
+    text-align: center;
+}
+
+#banner {
+    background-image: url(imagens/banner.png);
+    height: 1224px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artigo1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+
+.imgmain {
+    height: 420px;
+    width: 420px;
+    box-shadow: 4px 4px 7px #A68E45;
+    border: 3px solid black;
+}
+
+.texto2 {
+    font-size: 55px;
+    font-weight: 800;
+    color: black;
+    font-family: "inter", sans-serif;
+    justify-self: center;
+}
+
+.texto3 {
+    font-size: 30px;
+    color: black;
+    padding: 90px;
+    font-family: "itim", cursive;
+}
+
+#btn {
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    background-color: #000000;
+    border-radius: 56px;
+    width: 364px;
+    height: 70px;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+#btn a {
+    font-family: "Inter", sans-serif;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #A68E45;
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footermain {
+    align-self: flex-end;
+}
+
+.copyright {
+    background-color: #A68E45;
+    justify-content: center;
+    display: flex;
+}
+
+.copyright>p {
+    font-size: 20px;
+}
+
+#botaopacotes {
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+    width: 250px;
+    display: grid;
+    font-size: 40px;
+    place-items: center;
+}
+
+.botaolocal {
+    background-color: black;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textomain {
+    color: #000;
+    font-family: 'Imperial Script', cursive;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    text-shadow: 4px 4px 7px #544000;
+    font-weight: 100;
+}
+
+
+.afooter {
+    font-size: 42px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1400px;
+    width: 550px;
+    flex-wrap: wrap;
+}
+
+#galeria {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    row-gap: 30px;
+    background-color: rgb(206, 203, 203);
+    border-radius: 40px;
+}
+
+.imggaleria {
+    width: 30%;
+    height: 30%;
+    border: 2px solid black;
+    box-shadow: 2px 1px 4px black;
+}
+
+#mainpacotes {
+    color: black;
+    margin-top: 100px;
+}
+
+#titulopacotes {
+    padding: 30px;
+    text-align: center;
+    font-family: "inter", sans-serif;
+}
+
+#container4 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pacotes {
+    background-color: rgb(197, 195, 195);
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.textopacotes {
+    padding: 10px;
+    font-family: "itim", cursive;
+    display: flex;
+    align-self: center;
+}
+
+.tituloofertas {
+    font-size: 55px;
+    padding: 10px;
+    font-family: "inter", sans-serif;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+#bodypacotes {
+    background-color: rgb(212, 211, 211);
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.end {
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #A68E45;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: flex-end;
+}
+
+.button:hover {
+    background-color: white;
+    color: #A68E45;
+    width: 220px;
+    height: 100px;
+    font-size: 35px;
+    border-radius: 40px;
+}
+
+#botaopacotes:hover {
+    background-color: white;
+    color: black;
+    width: 270px;
+    height: 80px;
+    font-size: 45px;
+    border-radius: 40px;
+}
+
+#botaopacotes {
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+    width: 250px;
+    display: grid;
+    place-items: center;
+}
+
+
+.botaolocal:hover {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    height: 60px;
+    width: 140px;
+
+    font-size: 38px;
+}
+
+.compra:hover {
+    font-size: 45px;
+}
+
+#btn:hover {
+    width: 380px;
+    height: 90px;
+    font-size: 45px;
+    background-color: #A68E45;
+    color: black;
+}
+
+#menu-check {
+    display: none;
+}
+
+.bt-menu {
+    display: none;
+}
+
+#header {
+    background-color: #A68E45;
+}
+
+@media(max-width: 1076px) {
+
+    body {
+        max-width: 1075px;
+        overflow-x: hidden;
+    }
+
+    .compra {
+        font-size: 25px;
+    }
+
+    .bt-menu {
+        height: 100px;
+        background-color: #A68E45;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    header {
+        height: 600px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav {
+        height: 0;
+        overflow: hidden;
+        transition: all 1s ease;
+    }
+
+    #header #menu-check:checked~nav {
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #galeria {
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    #tituloimg {
+        font-size: 90px;
+    }
+
+    .texto2 {
+        font-size: 50px;
+    }
+
+    .textomain {
+        font-size: 70px;
+    }
+
+    .texto3 {
+        font-size: 20px;
+    }
+
+    #btn {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    #btn:hover {
+        width: 220px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    footer {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .footermain {
+        align-self: center;
+        justify-self: center;
+    }
+
+    #titulopacotes {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    #botaopacotes {
+        width: 140px;
+        height: 35px;
+        font-size: 25px;
+    }
+
+    #botaopacotes:hover {
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .tituloofertas {
+        font-size: 25px;
+    }
+
+    .textopacotes {
+        font-size: 20px;
+    }
+
+    .preco {
+        font-size: 25px;
+    }
+    .button{
+        width: 140px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .button:hover {
+        width: 160px;
+        height: 60px;
+        font-size: 23px;
+    }
+}
+
+@media(max-width:426px) {
+
+    body {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
+
+    .compra {
+        font-size: 15px;
+    }
+
+    .bt-menu {
+        height: 100px;
+        background-color: #A68E45;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    header {
+        height: 50px;
+        flex-direction: column;
+    }
+
+    nav {
+        height: 0;
+        overflow: hidden;
+        transition: all 1s ease;
+        background-color: #7e6b34;
+    }
+
+    #header #menu-check:checked~nav {
+        height: 220px;
+    }
+
+    nav menu {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav menu ul {
+        padding: 10px;
+    }
+
+    #galeria {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    #tituloimg {
+        font-size: 60px;
+    }
+
+    .texto2 {
+        font-size: 15px;
+    }
+
+    .texto3 {
+        padding: 20px;
+    }
+
+    #btn {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    #btn:hover {
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    footer {
+        height: 300px;
+        flex-direction: column;
+        font-size: 20px;
+        overflow-x: hidden;
+        gap: 1px;
+    }
+
+    .footermain {
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+
+    }
+
+    .afooter {
+        font-size: 20px
+    }
+
+    .pfooter {
+        font-size: 25px;
+    }
+
+    .compra:hover {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 70px;
+    }
+
+    .footerlogo img {
+        width: 200px;
+        height: 70px;
+    }
+
+    .imgmain {
+        width: 200px;
+        height: 200px;
+    }
+
+    .botaolocal {
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .article {
+        height: 600px;
+    }
+
+    .copyright p {
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    .container3 h1 {
+        font-size: 20px;
+    }
+
+    #titulopacotes {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    #botaopacotes {
+        width: 80px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    #botaopacotes:hover {
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .compra:hover{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .tituloofertas {
+        font-size: 25px;
+    }
+
+    .textopacotes {
+        font-size: 20px;
+    }
+
+    .preco {
+        font-size: 25px;
+    }
+    .button{
+        width: 140px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .button:hover {
+        width: 160px;
+        height: 60px;
+        font-size: 23px;
+    }
+}
